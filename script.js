@@ -1,55 +1,66 @@
 const questions = [
     {
-        question: "What is 20% of 150?",
-        options: ["15", "30", "25", "35"],
+        question: "What is an angle of elevation?",
+        options: [
+            "The angle above the horizontal line of sight",
+            "The angle below the horizontal line of sight",
+            "The angle between two intersecting lines",
+            "The angle inside a triangle"
+        ],
+        correct: 0
+    },
+    {
+        question: "What is an angle of depression?",
+        options: [
+            "The angle below the horizontal line of sight",
+            "The angle above the horizontal line of sight",
+            "The angle between two intersecting lines",
+            "The angle inside a triangle"
+        ],
+        correct: 0
+    },
+    {
+        question: "If a person looks up at a tree with an angle of elevation of 30° from a distance of 10 meters, what is the height of the tree?",
+        options: ["5.77 m", "8.66 m", "10 m", "17.32 m"],
         correct: 1
     },
     {
-        question: "If an item costs $200 and is sold at a 25% discount, what is the discounted price?",
-        options: ["$150", "$175", "$125", "$160"],
+        question: "A plane is flying at a height of 3000 meters. The angle of depression to a point on the ground is 45°. What is the horizontal distance to the point?",
+        options: ["3000 m", "1500 m", "4242 m", "2000 m"],
         correct: 0
     },
     {
-        question: "What is the result of approximating 47.89 to the nearest whole number?",
-        options: ["48", "47", "50", "46"],
+        question: "A ladder leans against a wall making an angle of elevation of 60°. If the ladder is 10 meters long, how high up the wall does it reach?",
+        options: ["8.66 m", "5 m", "10 m", "7.5 m"],
         correct: 0
     },
     {
-        question: "A profit margin of 15% on an item sold for $300 means a profit of:",
-        options: ["$45", "$60", "$50", "$40"],
+        question: "If a lighthouse is 50 meters high and the angle of depression to a boat is 30°, what is the distance of the boat from the base of the lighthouse?",
+        options: ["86.6 m", "50 m", "43.3 m", "100 m"],
         correct: 0
     },
     {
-        question: "What is 75% of 80?",
-        options: ["60", "65", "55", "70"],
+        question: "A building is 20 meters tall. The angle of elevation from a point 15 meters away from its base is:",
+        options: ["53°", "45°", "30°", "60°"],
         correct: 0
     },
     {
-        question: "Round 3.678 to the nearest hundredth",
-        options: ["3.68", "3.67", "3.70", "3.66"],
+        question: "An observer on top of a tower 100 meters high sees a car on the ground at an angle of depression of 30°. What is the horizontal distance to the car?",
+        options: ["173.2 m", "100 m", "86.6 m", "200 m"],
         correct: 0
     },
     {
-        question: "What is the percentage increase from 40 to 50?",
-        options: ["20%", "25%", "15%", "10%"],
-        correct: 1
-    },
-    {
-        question: "Approximate 16.7 × 3.9 to the nearest ten",
-        options: ["60", "70", "65", "55"],
-        correct: 1
-    },
-    {
-        question: "If 30% of a number is 45, what is the number?",
-        options: ["150", "135", "165", "140"],
+        question: "A flagpole casts a shadow 12 meters long when the angle of elevation of the sun is 45°. What is the height of the flagpole?",
+        options: ["12 m", "6 m", "24 m", "18 m"],
         correct: 0
     },
     {
-        question: "Round 0.6837 to the nearest tenth",
-        options: ["0.7", "0.6", "0.68", "0.69"],
+        question: "From a point on the ground, the angle of elevation to the top of a 30-meter building is 60°. What is the distance from the point to the base of the building?",
+        options: ["17.32 m", "15 m", "30 m", "25 m"],
         correct: 0
     }
 ];
+
 
 let currentQuestion = 0;
 let score = 0;
